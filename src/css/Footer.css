@@ -1,0 +1,45 @@
+
+.footer-main {
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    height: 150px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer > div {
+    width: max-content;
+    margin: 0 3.5vw 0 3.5vw;
+}
+
+.footer-link-contents {
+    display: block;
+    font-size: 14px;
+}
+
+#footer-link:focus {
+    font-size: 14px;
+}
+
+.footer  h6 {
+    font-weight: 600;
+}
+
+.footer-address {
+    max-width: 150px;
+    font-size: 13px;
+}
+
+.footer-address > h6 {
+    color: white;
+}
+
+.footer-contacts {
+    font-size: 13px;
+}

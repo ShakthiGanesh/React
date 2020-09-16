@@ -1,0 +1,32 @@
+.list {
+    flex: 50%;
+}
+
+
+.single_dish {  
+    position: relative;
+     margin-top: 20px;
+    max-width: fit-content;
+   
+}
+.dish_image {
+    width: 30vw;
+
+}
+
+.dish_name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+}
+
+
+@media (max-width: 480px) {
+    .list-small {
+        flex: 100%;
+    }
+    .dish_image {
+        width: 70vw;
+    }
+}

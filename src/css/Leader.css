@@ -1,0 +1,31 @@
+.leader {
+    display: flex;
+    align-items: start;
+    max-width: 90vw;
+    margin: 7px auto;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+.leader-image {
+    margin: 15px;
+} 
+
+.leader-image > img {
+    width: 150px;
+}
+
+.leader-info {
+    margin: 10px;
+}
+
+.leader-info  p {
+    font-size: 15px;
+}
+
+.leader-info > h6 {
+    font-weight: 600;
+}
+
+.leader-description {
+    color: rgba(0,0,0,0.7);
+}

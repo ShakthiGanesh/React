@@ -1,0 +1,41 @@
+.selectedItem {
+    display: flex;
+    width: 70vw;
+    margin: 10px auto;
+    /* padding: 20px; */
+}
+
+.selected_info {
+    flex: 0.5;
+}
+
+.selected_info > img {
+    width: 30vw;
+}
+
+.selected_comments {
+    flex: 0.5;
+}
+
+
+
+
+@media (max-width: 480px) {
+.selectedItem {
+    display: block;
+}
+
+.selected_info > img {
+    width: 70vw;
+}
+
+.selected_comments{
+    width: 70vw;
+}
+
+}
+
+.selected_comments > p {
+    font-weight: bold;
+    font-size: 20px;
+}
