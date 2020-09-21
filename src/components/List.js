@@ -1,19 +1,21 @@
 import React from 'react'
-import App from '../App'
+import { Link } from 'react-router-dom'
 import '../css/List.css'
-import SelectedItem from './SelectedItem'
 
 
-function List({dish, SetSelected}) {
+function List({dish}) {
         
        
         return (
-            <div className='list list-small' >
-                <div key={dish.id} className='single_dish' onClick={() => SetSelected(dish)}>         
+            <Link to={'/menu/'+ dish.name} className='list list-small' >
+                <div key={dish.id} className='single_dish'>         
+                
                     <p className='dish_name'>{dish.name}</p> 
                     <img className='dish_image' src={dish.image} alt=''/> 
+               
                 </div> 
-            </div>
+             </Link>
+            
                                    
             )
         

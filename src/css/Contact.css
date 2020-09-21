@@ -1,0 +1,23 @@
+.form {
+    width: 70%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.form-Contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    align-items: center;
+}
+
+
+
+.form  h5,h7{
+    font-weight: 600;
+}
+
+
+.form p {
+    margin-bottom: 0;
+}

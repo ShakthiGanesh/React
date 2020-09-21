@@ -9,6 +9,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
 
  function Footer () {
     return(
+        <div className="footer-copyrights">
         <div className='footer-main'>
             <div className='footer'>
                 <div>
@@ -39,7 +40,7 @@ import TwitterIcon from '@material-ui/icons/Twitter';
                 </div>
                 <div className='footer-address'>
                     <h6>Our Address</h6>
-                    <p>01, SASTRA University,
+                    <p>SASTRA DEEMED UNIVERSITY,
                     Thirumalaisamudram,
                     Thanjavur,TamilNadu,
                     India</p>
@@ -52,7 +53,10 @@ import TwitterIcon from '@material-ui/icons/Twitter';
                     <LinkedInIcon />
                     <TwitterIcon />
                 </div>
+                
             </div>
+        </div> 
+        <p>&#169;2020 Shakthi Web, LLC</p>   
         </div>
     )
  }

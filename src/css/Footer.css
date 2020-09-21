@@ -1,7 +1,16 @@
+.footer-copyrights {
+    background-color: rgba(0,0,0,0.9);
+}
+
+.footer-copyrights > p {
+    font-size: 14px;
+    width: fit-content;
+    margin: 0 auto;
+    color: burlywood;
+}
 
 .footer-main {
     margin-top: 20px;
-    background-color: rgba(0,0,0,0.9);
     display: flex;
     justify-content: center;
 }
